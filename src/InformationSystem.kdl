@@ -1,0 +1,9 @@
+use System of './System.kdl'
+
+symbol InformationSystem
+
+statement 1 := (
+  {InformationSystem} is {System} that renders 
+  information
+)
+

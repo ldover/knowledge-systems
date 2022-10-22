@@ -1,0 +1,19 @@
+use Knowledge of './Knowledge.kdl'
+use InformationSystem of './InformationSystem.kdl'
+use System of './System.kdl'
+
+symbol KnowledgeSystem
+
+
+statement 1: = (
+  {KnowledgeSystem} is an {InformationSystem}, which 
+  renders {Knowledge} for human Action.
+)
+
+statement 2: = (
+  Quality of a {KnowledgeSystem} depends on 
+  Quality of {Knowledge} and Quality of {Knowledge} 
+  priors `Quality(Knowledge System) = Quality(Knowledge) x Quality(Knowledge(Priors))`
+
+)
+

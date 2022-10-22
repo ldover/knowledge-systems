@@ -1,0 +1,254 @@
+<script>
+  import System from './src/System.kdl'
+  import InformationSystem from './src/InformationSystem.kdl'
+  import KnowledgeSystem from './src/KnowledgeSystem.kdl'
+  import Knowledge from './src/Knowledge.kdl'
+</script>
+
+
+# Scaling Civilizational Knowledge
+We've successfully scaled our information systems to a global level: we have all the information at our fingertips supported by the network of billions of interconnected devices — the internet, which is itself a marvelous feat of science and engineering. And yet, how is it that with all this knowledge we as a civilization of individuals can be just as ignorant as in the past and prone to repeating our own mistakes?
+
+The path to understanding this divide lies in understanding the difference between information systems and knowledge systems, and how the improvement of the former, does not necessarily mean the improvement of the latter. We can increase the quality of our information systems, and yet let our knowledge systems deteriorate.
+
+In order to understand this difference, in this article we'll step away from the objective and technical characteristics of information systems, and examine the subjective and human characteristics of *knowledge* systems.
+
+Information systems and technologies we can understand through technical and objective metrics such as speed, latency, capacity, etc. We understand these metrics, and we're continually increasing their performance, making information flow with less cost and friction. But in this objective and technical domain we're not interested in what *kind* of signal flows and how it affects individual humans. 
+
+{InformationSystem.statements[0].render()}
+
+Knowledge systems, while embedded in information systems, are subjective and cannot be understood apart from the individual and society, whom they serve. Any attempt to understand them in isolation from individual will shift focus to those objective metrics that are so familiar to us, but tell us little of how they affect individual humans.
+
+Further, when an information system collapses, we trace the cause to a dead server, a fried RAM unit. We quantify the damage, we deal with it and get the server back online in due time. When a knowledge system collapses the result is collapse of human institutions and loss of human lives.
+
+Why is that?
+
+A knowledge system transcends the objective information system and is inseparable from human action, which it informs. It is any physical system: a book, another brain, the internet, which affects the conduct of a human being. Therefore, any study of knowledge systems cannot be performed in isolation from individuals, but rather in interaction with them.
+
+{KnowledgeSystem.statements[0].render()}
+
+
+Knowledge is a social phenomenon, after all. One cannot read a book without sharing the same language (i.e., knowledge priors) as the author who wrote it. A book in individual's hands can be a powerful tool that changes the face of the Earth (for better or worse), while a book isolated and unseen is just an information system with no impact whatsoever.
+
+{Knowledge.statements[0].render()}
+
+It is this connection between information systems and acting human beings that makes up a knowledge system. It is this connection that interests us in this article.
+
+We already know the first principles of information systems, given to us by information theory and computer science. This understanding enables us to build high quality information systems than span the globe.
+
+In this article we'll begin sketching out the first principles of knowledge systems. We believe that the effort in this direction will enable us to design and build high quality knowledge systems, which propagate high quality signal through our information systems and have definitively positive impact on individual human beings and civilization at large.
+
+
+## Quality of physical systems
+Before we begin studying knowledge systems, we'll turn our attention to physical systems in general. Since knowledge systems are physical systems, we might be able to draw some parallels between them. In this section we'll develop a conceptual framework for evaluating physical systems in terms of human action. 
+
+We'll borrow concepts of value and human action from Austrian economics, but we'll use them more loosely than they are typically used.
+
+We'll say that humans act towards the direction of greatest value, always and everywhere, even outside the typical economic decisions. For example, if a human moves across a city from point A to point B, that would be because that individual valued the state at point B more than the state at point A, at least at that specific time. Maybe point B was our individual's date or something else she valued. We don't really care what it was, only that action was directed in a direction that maximized value.
+
+It's worth stressing that action is not merely toward greater value, but *greatest* value.
+
+Reflecting on this statement will prove useful to understanding the rest of the article. Reader is encouraged to come up with counter examples to form a mental model of this relation between action and value. When doing so, it might prove helpful to consider that individuals act with imperfect knowledge, and hence their action is directed towards greatest *predicted* value, which might not result in a higher value state, either short-term or long-term.
+
+Keeping that in mind…
+
+If there is an alternative means to traverse the state change between point A and point B, which would render more value to individual, then the individual will use those means (e.g., a skilled cyclist preferring a bike to traverse the distance rather than walking). That would be consistent with humans acting towards greatest value. The means, in this case a bicycle, would be what Austrian economists term *capital*. Again we'll use the term *capital* loosely, and we'll prefer to call it a *physical system*, because that gives us greater freedom of expression: we can compose systems arbitrarily and shift our reference frame to any subsystem and analyze it from that viewpoint. 
+
+Note that just about anything is a physical system, but what we're interested in is human-built physical systems that render useful service to humans, like buildings, airplanes, bridges, etc.
+
+A general theme of humanity is improving the quality and scale of our physical systems so they render better services to more humans at lower cost. That way more human wants are satisfied, or more cumulative value is achieved within a socio-economic system. 
+
+When we construct bigger physical systems (bigger buildings, bigger airplanes, etc.), we increase the carrying capacity of that physical system to render more services to humans. This is how we'll look at scale of a system: not in terms of objective size, but rather in terms of how many humans are channeling their action through it (i.e., using it).
+
+As we increase the carrying capacity of our physical systems, two points are relevant to our discussion:
+1. Through lower cost and prices, economies of scale can benefit both the investor  and the customer — there is greater potential value to be had
+2. If something goes wrong more humans are at risk — there is greater potential negative value to be incurred
+
+For example, when an entrepreneur constructs a larger building, provided it was done well, renters have more affordable living and investor has more profit from collecting more rents — there is greater cumulative value across the entire system (1). But if a building was built with low quality materials and careless workforce, its lower quality state can result in a collapse, which results in negative value in terms of lives affected, lawsuits, etc. — there is greater negative value across the entire system (2).
+
+The higher quality building will not collapse as readily as a lower quality building, and all else being equal (e.g., construction cost), it will result in greater cumulative value to the system within which it is contained.
+
+Since the a quality of physical system seems related to the value it renders to individuals, let's examine this relation between the quality and value.
+
+It's clear that some buildings are better than others, and we hold that true for things in general. To say a thing is better is equivalent to saying that thing is higher quality. But while the quality of physical systems might be intristic, trying to measure it by looking at their intrinsic features will only force us to select arbitrary and objective metrics that are particular to that physical system. It's clear that different kinds of physical systems (e.g., airplane vs building) will have a different functional orientations (e.g., transport vs shelter) and will require different metrics. It's also clear that different people can also agree to disagree on the metrics themselves.
+
+So what we propose here is a more general way to look at quality of systems, a way that is framed in terms of value it renders to the socio-economic system within which it is embedded.
+
+We observe that higher quality physical system, all else being equal, will render greater value to individuals who use it:
+
+{System.statements[0].render()}
+
+How about the case when a new, obviously higher quality technology, like a faster and better airplane, loses value to the business, whereas an older, slower airplane generates profit?
+
+Well, that is the _all else being equal_ part: if we look at two airplanes with the same functional orientation, equal carrying capacity, and equal cost to produce, the higher quality one will result in more value to the system using it. This higher value can take the form of lower operating costs for the business (e.g., less fuel due to higher quality engine), and the form of more a comfortable flight and cheaper tickets for the customers.
+
+If we want to address the point of business losing value, because it put a new airplane into operation,  we must step into the reference frame of the business and analyze it from that global viewpoint.
+
+We can then examine what led to the lower value to the airliner by asking: was it the lower quality of the airplane, or the lower quality of the decision-making (i.e., knowledge) that put the airplane into production, or the lower quality of the production system that produced airplane at too high a cost? 
+
+By examining each component of the system we can trace the source(s) of low quality, which generated negative profit. That way we can see if the airplane was indeed of lower quailty, or not.
+
+Maybe the business did everything perfectly, but there was an external factor like the inflation-induced noise in the price signal, which distorted prices and badly influenced business decisions of the airliner.
+
+That would mean that a loss of revenue originated at least in part in the distorted knowledge systems, which communicate prices: economy of market actors and financial system at large.
+
+In his well-known essay ["The Use of Knowledge in Society"](https://www.econlib.org/library/Essays/hykKnw.html), Friedrich Hayek explains how prices carry immensely compact knowledge, which is essential for market actors to productively allocate resources and carry out their economic planning. He explains that this system of prices works best in a decentralized way, and that any centralized decision that influences the prices (e.g., explicit price control, inflation...) distorts those prices and inhibits the system to function at its best.
+
+It sounds complex, but it's as simple as you deciding to buy less cocoa when the price of cocao is high, and more cocoa when the price is less. That's your economic calculation in action. It is basically the same kind of calculation that entrepreneurs face in business, but what they chose to buy and the contracts they choose to engage in have larger consequences. Just imagine signing a contract with your grocery store that requires you to purchase its cocoa for one year, but then immediately after the contract was signed, the price shoots up to triple the original price. You would probably be dismayed to have to continue buying cocoa at that high price, and you might need to sacrifice other wants and desires to fulfill that contract, i.e., you might find yourself in a state of lower value.
+
+A higher quality knowledge system that communicates prices more clearly, would have less risk in putting in a love-hate relationship with cocoa. Same is true for the airliner: it's important it has good knowledge of the prices when deciding to invest in the development of a new and better ariplane, otherwise it can miscalculate the costs and go bankrupt. In that case, this lower value state, which takes the form of lost jobs for employees and lost flight options for consumers, will be at least in part caused by the lower quality knowledge system that it relied on for the knowledge of prices.
+
+Next we'll look at what makes up the quality of knowledge systems and how it influences the social fabric of humanity,
+
+## Quality of knowledge systems
+We'll start us off with definitions and proceed to examples.
+
+First, knowledge systems are physical systems, which contain and render knowledge used in human action. Human brains, human institutions, human books and libraries. They are all actual physical systems and their function is to render valuable knowledge for action at a specific time.
+
+{KnowledgeSystem.statements[0].render()}
+
+As knowledge system is a physical system, the previous statement applies: {System.statements[0]}. This means that higher quality knowledge system should result in greater value for individuals using it.
+
+That's clear, but let's try to tease apart this definition to gain more insight into the structure and function of knowledge systems. We'll do this by examining the systemic effects of distorted price signals on human action.
+
+We take it to be self-evident that distorted prices mean the knowledge system is lower quality and from {System.statements[0]} we know this should result in lower value for the individuals using it. Therefore, let's imagine a hypothetical scenario of distorted prices, as a result of arbitrary controls that were put in place by a hypothetical group of lobbyists for the keto diet.
+
+Imagine that on your trip to the grocery store, you discover price of meat is now 10% the usual price, while price of rice at 10x its usual price. Given that you planned on a simple chicken rice dinner, how would you structure your next meal? Although you're not into fad diets, as the price of rice is more than meat, you would probably be inclined to reconsider the keto variant — as would most people. Your course of action has certainly been affected by these new and arbitrarily fixed prices, and you will act towards your greatest value whatever chicken-to-rice ratio you choose, but it is the systemic effects of thousands of individuals in your city that we're interested in:
+1. Next time you go shopping you discover there's no more meat
+2. You find out that people bought more meat than usual, and keto enthusiasts went so far as to buy additional freezers to accommodate their larger stock
+3. Refrigeration market is booming and people are investing in freezer technology companies
+
+You follow the action closely and over the next few weeks you witness the "unwind":
+1. Farmers have gone out of business since they had to sell their meat at a loss, and there's shortage of meat
+2. As their stock of meat runs out, keto people are forced into more moderate diets, their extra freezers now empty and up for sale
+3. As the situation in the refrigeration market reverses, freezer companies and investments go bust, and employees are laid off
+4. As for yourself, you notice that rice is still available, having been a luxury good for a while, and you figure that *imagining*  chicken will have to do for now and hope that lack of animal protein won't lead to malnutrition
+
+Reader will trust that although this scenario is hypothetical, the effects of price controls are very real: we witnessed many crazier examples from history.
+
+In this example, each price distortion communicated by the knowledge system misdirected human action towards misallocation of resources. The system spiraled into the state of lower value over time.
+
+Let's complete this scenario by developing intuition for the other factor that influences quality of knowledge systems…
+
+For most individuals being forced from one extreme to another, their procession was towards lower value over the long term. But among them were individuals who observed that mania with their discerning and experienced eye and who stood to gain from it: they shorted the refrigeration market, knowing it must go down, and benefited when its collapsed.
+
+The difference between crazed individuals overinvesting in refrigeration companies and individuals that were aware of the price distortion was that latter individuals combined the knowledge system of prices with their private and learned knowledge system that is their brain, to form a combined knowledge system that was higher quality than the environment. Hence, their higher quality knowledge systems informed their action in the direction of greater value in the long term.
+
+This *awareness* of the distortion in the prices is what we'll term *knowledge priors*.
+
+Here is the breakdown we were looking for: we can break down quality of knowledge system into two parts: quality of knowledge and quality of knowledge priors.
+
+{KnowledgeSystem.statements[1].render()}
+
+While the quality of knowledge is determined by the degree of the distortion in the price, quality of the priors is the degree of the awareness of that distortion.
+
+In the example all individuals had the same low quality knowledge of the prices, but learned and better informed individuals had higher quality knowledge priors and so directed their action better.
+
+We can look at the priors as knowledge, which determines what knowledge gets acted on and in what way. 
+
+To illustrate using more familiar concepts, let's turn to communism and capitalism.
+
+Communistic ideas are empirically shown time and again that once they're deeply embedded within the knowledge systems of society and acted upon with great determination, they lead to collapse of civilization, lower value for most if not all individuals involved.
+
+On the other hand, capitalistic ideas embedded within our modern society gave us the wealth we experience day-to-day: they are the foundation of all goods and services we cherish and they to higher value for most if not all individuals involved.
+
+Clearly the latter is the higher quality knowledge system, since it leads to greater value. 
+
+And if you consider it, we do have the ideas of communism today, we can read about them. So what was different between our society and that of USSR? The difference is that our knowledge systems (humans, institutions, etc) correctly discriminate that communism is low quality knowledge and subject it to action in that context (e.g., using it as learning material of what makes a poor social system). Whereas Soviets' knowledge systems did the exact opposite — an masse  discriminated knowledge of capitalism as low quality and knowledge of communism as high quality, which led them to act as they did, towards lower value.
+
+This is not inconsistent with the statement that action is directed towards greatest value, as it the *predictions* of value that matter when knowledge and humans are concerned. 
+
+Two observations, which directly follow from this are:
+1. Low quality knowledge does not matter as much, so long as high quality priors let us discriminate and act on it in that regard.
+2. And the the highest quality knowledge at our disposal won't matter, if we don't act on it in that regard.
+
+Again:
+{KnowledgeSystem.statements[1].render()}
+
+Note that this breakdown is arbitrary, as priors are still knowledge, but it helps us understand the difference, and later on it will help us understand how to shape knowledge technologies. 
+
+And now it will help us understand why Google succeeded, and why it must, by the same reason, ultimately fail. 
+
+## Quality of Google
+Here we start focusing on a concrete technical implementation of a knowledge system. To properly understand the incentives in one of the most used knowledge systems (Google), we must briefly step back to examine the historical arc from which Google emerged.
+
+Historically the cost of information production was high: books and education used to be expensive and reserved for the more privileged. This higher cost is directly due to lower quality and scale of information systems at that time: both copying books by hand and delivering a lecture to small 
+number of students required significant human time, energy, and money. While this higher cost of production limited general access to knowledge, it had an effect of providing a natural filter for knowledge. Knowledge that was not valuable enough to produce, reprint, and lecture, wasn't. And so this lower quality was filtered out (by concrete human actions) just as unfit animals are filtered out of the ecosystem. This had an effect of increasing the average quality of remaining knowledge.
+
+Information Age brought the cost of information down by perfecting the quality of our information systems: almost everyone with access to internet can now access most of the  knowledge ever produced at almost zero cost. Lectures are now streamed over the web at the cost of electrons. Natural filter is gone and low quality knowledge stockpiles and competes for attention in the artifical arena that we'll examine in this section.
+
+This zero cost of information production forms the foundation for the asymmetry that previously did not exist. If the cost of production approaches zero, if an individual gets *any* value from producing information, the return on his investment is infinite. 
+
+This would not be a problem so long as all knowledge was of highest quality, but that is sadly not the case. While high quality knowledge requires more investment upfront, lower quality knowledge is easier to produce as it not constrained by truth.
+
+Without that natural filter in place, one can't just pick the one book on a topic and expect it to be worthwhile. This leads one to wonder how can we find any knowledge of high quality today in this infinite blizzard of information on the web.
+
+For this, we'll now examine a concrete knowledge system. We'll compose our system from all the interconnected devices on network (internet), Google search engine, and the people using it to access and act on the knowledge stored on those devices.
+
+But first, let's apply our framework to figure out why Google won the search engine space.
+
+It seems like people got more value from it than from other search engines, so they used it more. From {System.statements[0]} and action being towards greatest value, we can infer that Google was higher quality than its competitors.
+
+But what was it that it did better than other search engines? Better search results, yes, but how? Since it had same internet of knowledge at its disposal as other search engines, it had to have something else.
+
+From {KnowledgeSystem.statements[1]} we clearly see that the only remainining factor in the equation is quality of knowledge priors, i.e., so it had better knowledge priors, which it generated by using its own algorithms. Concretely, those priors form the Google's search index, which determines what search result rank higher. By Google's own terminology, higher ranking results are predicted to be higher quality.
+
+But this leads one to ask: how did an algorithm create knowledge of priors? If it is only a computer without an ability to act like a human being and try out what knowledge works and what doesn't, how could it know what's better and what's worse?
+
+Remember a few paragraphs back where we said that in Information Age there is no natural filter any more? Well the reality is more nuanced: first, there's less pressure to select better material to copy and letting the lower quality material perish due to cost of information being nearly zero. Second, it turns out that there's another filter that can exist in the dimension of knowledge priors ({KnowledgeSystem.statements[1]}).
+
+Before Google and search engines, humans navigated the web using a different method. They actively discriminated between higher and lower quality information by maintaining directories of links, which included categories of topics that pointed to websites human valued. Just like one can decide to copy more valuable material, one can decide to link to a more valuable website.
+
+In this process of interlinking websites, humans left the footprints and pathways of human action in the web of knowledge. These footprints contained within them implicit knowledge priors. Then one or several engineers in Google observed that if there are more links pointing to a website this probably means that humans value that website more, than some isolated website. With its PageRank algorithm Google was able to track those footprints and extract knowledge priors deposited there by human action. This implies that its algorithm could only rank results by quality, *because* humans have already discriminated on its behalf. And they've done it in a decentralized way without any central party deciding what site is more valuable than another.
+
+_Side note: Google also actively generated priors by creating AdWords, which again used individual human discretion rather than any centralized discrimination._
+
+Relative number of links pointing to a site and relative number of ad clicks were at the time good-enough measures of quality for Google to create the best search experience. But these measures were just that — proxies for quality rather than actual quality.
+
+This difference is critical, as [Goodhart](https://en.wikipedia.org/wiki/Goodhart%27s_law) pointed out:
+> Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+
+In other words: “When a measure becomes a target, it ceases to be a good measure”.
+
+Meaning, when Google used those proxies to evaluate quality and rank results, and when millions competed for the first page of Google, some people figured that it's actually easier to just create a bunch of mock links pointing to their website than work on improving its quality. That way they could rank their website higher and get more value at lower cost. Completely reasonable and unavoidable due to individuals' acting in the direction that maximizes value for them, regardless of long-term consequences for the entire system.
+
+Based on these incentives, which Google set up, the game twisted in a predicable way: towards fooling the search engine and away from creating quality knowledge. The quality of priors that existed in the initial phase of Google, slowly began deteriorating as new proxies and patterns, which Google set up to combat the degredation, got attacked in ever more sophisticated ways, a tension, which gave birth to things like the science and art SEO. Picture mock footprints blurring the lines of previously well-maintained pathways — over time one cannot trace the paths and find his way in the cybernetic blizzard.
+
+The long-term result: as quality of priors degrades, the search results degrade, and the average quality of knowledge itself degrades as more people are incentived to produce lower quality knolwedge over higher quality. This leads to the decrease of quality of the knowledge system as a whole  due to both factors in {KnowledgeSystem.statements[1]} becoming less. Which means the knowledge system increasingly renders lower quality knowledge for action, which leads to increasingly more misdirected action. 
+
+Unfortunately, in its the effort to combat this degeneration of quality, Google is turning to centrallized form of discrimination. It's [Quality Raters](https://support.google.com/websearch/answer/9281931?hl=en) program has over 10000 people who discriminate knowledge on behalf of billions of users, i.e., they decide what is valuable and what is not. They base their discrimination on fixed notions of quality, its intrinsic features, rather than subjecting it human action. It's [guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/sl//searchqualityevaluatorguidelines.pdf) introduce framework of *Expertise, Authoritativeness, and Trustworthiness (E-A-T)*, which is biased towards authoritative websites, like governments, regardless of the quality of knowledge those website convey.
+
+As we've seen in the example of knowledge system of prices, when a centralized party arbitrarily decides the prices of things, rather than letting the price emerge on the free market, the human action is misdirected as a result. This centralized raters program, no matter how well-intentioned, has the same capacity to deceive and misdirect human action, leading the entire system in the direction of lower value.
+
+It doesn't matter how much brilliant content we have created on the internet if the knowledge priors hide that knowledge from ever surfacing, while letting lower quality knowledge and misinformation affect our actions. 
+
+As we've mentioned previously: the larger the carrying capacity of a physical system the more human lives are affected by it, for better or worse. With more than 4 billion of Google users, the systemic effects of cumulative action being misdirected towards lower value can be huge. Especially  when large consolidated groups of millions with same interests or locale act against one another with violent intent. 
+
+Consolidation of groups can happen when a group shares knowledge priors as influenced by Google's locale-dependent (e.g., nation) or interest-based (e.g., political leaning) search feature. Where there is lack of shared priors, at best there's increased cost of coordination, at worst there's clash of nations.
+
+No doubt Google has the best intentions, but its asymmetric position as the largest search engine influencing actions of 4b+ people, puts it in a dangerous seat.
+
+To improve, it would have to completely rethink its approach to serving search result. Based on these principles, we can offer two important and mutually-dependent considerations: 
+1. It would have to find a way to design an environment where decentralized human discrimination can generate high quality knowledge priors (i.e., re-establish the footpaths of human value)
+2. It would have to make those priors costly to attack to maintain their quality (i.e., guard the pathways by enforcing prohibitive cost to attack)
+  
+We argue that the prohibitive cost of attacking the knowledge priors would divert human action into the only remaining direction: improving the quality of knowledge itself.
+
+As producing higher quality knowledge is incentivized, and masquerading low quality knowledge as high quality is disincentived, the system should produce more quality knowledge as a result. Google could play a critical role in supporting this upwards spiral towards increasingly higher quality knowledge system.
+
+We suggest that design considerations for enforcing prohibitive cost include Bitcoin in some capacity. It could be a useful tool for arriving at an incorruptible representation of human action.
+
+If not Google, there is an opportunity for a better knowledge technology to take its place. Although, if Google's does a great job and levels the playing field, we might be saved considerable time and trouble in transitioning to a higher quality knowledge system, which would render better service to humanity.
+
+## Further work
+This work was only a rough sketch (v0.0.1): it gives us the intuition, but the statements are not yet grounded in any existing mathematical framework. 
+
+To bring this work to v1, where the statements are substantiated by rules of math and laws physics, we'll need to search for this mathematical framework. We intend to do so.
+
+We conjecture that if the pursuit of this framework proves to be successful, it will bring about a new field of science and engineering, which might enable us to scale the quality of our knowledge systems, just as computer science and engineering enabled us to scale the quality of our information systems. And in that scenario, when we build large scale knowledge structures, we will have specific degree of confidence that they won't collapse.
+
+We suspect that this new field of science and engineering might be rooted in the concepts used in this article: quality, value and action.
+
+
+
+  

@@ -1,0 +1,10 @@
+
+{
+  "name": "knowledge-systems",
+  "description": "We have perfected our information systems, and yet as civilization we seem more prone suffer from ignorance than ever. In this article we use principles from Austrian economics to begin sketching out a conceptual framework for understanding knowledge systems, which may prove useful in continued work in this direction, so that in the future we may learn to design large-scale knowledge systems that render more useful service to individuals, and minimize our collective ignorance.",
+  "title": "Scaling Civilizational Knowledge",
+  "version": "0.0.1",
+  "author": "Luka Dover <knowledge@lukadover.com> (https://lukadover.com)",
+  "homepage": "https://knowledge.lukadover.com",
+  "license": "MIT"
+}
