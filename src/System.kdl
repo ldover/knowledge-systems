@@ -1,9 +1,9 @@
 symbol System
 
-// The greater the Quality of a System, all else being equal,
-// the greater the value it renders to a human acting through it.
+// The greater the system's quality, all else being equal,
+// the more valuable it is.
 statement 1 := (
-  Value is proportional to the Quality of a {System} 
-  and Action flowing through it
+  Quality of a {System} is proportional to Value it results
+  in when subjected to Action
 )
 

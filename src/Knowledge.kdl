@@ -5,7 +5,7 @@ statement 1 := (
   {Knowledge} is information used in human Action
 )
 
-// In other words, better knowledge is defined by being more valuable than worse knowledge.
+// i.e., better knowledge is more valuable
 statement 2 := (
   Quality of {Knowledge} is proportional to the Value 
   it results in when subjected to Action.
