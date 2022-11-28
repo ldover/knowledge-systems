@@ -5,7 +5,7 @@ civilization we seem more prone to ignorance than ever.
 In this article we begin sketching out a conceptual
 framework to help us understand this dichotomy.
 We use principles from Austrian economics to differentiate
-between information systems and knowledge systems and explore
+between information systems and knowledge systems, and explore
 the first principles of the latter.
 Just as the first principles of information theory helped
 us scale our information systems to a global level,
